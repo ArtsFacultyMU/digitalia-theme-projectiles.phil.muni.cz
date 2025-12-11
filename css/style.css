@@ -1,2 +1,148 @@
 /* specific style */
+.page-title {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h1, .heading-a {
+  margin: 1em 0 0.5em;
+  color: #000;
+  font-size: 1.357em;
+  font-weight: inherit;
+}
+
+.main-content h2 {
+  margin-bottom: 2px;
+  font-size: 1.429em;
+  line-height: 1.4;
+}
+
+h2 {
+  font-weight: inherit;
+}
+
+
+.node--view-mode-teaser h2 a {
+  color: #0000DC;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+
+.node--view-mode-teaser .node__content {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+	.ds-2col-stacked-fluid > .group-left {
+		float: none;
+		width: 100%;
+	}
+
+	.ds-2col-stacked-fluid > .group-right {
+    		float: none;
+    		width: 100%;
+	}	
+}
+
+div.arrows-table table {
+	table-layout: fixed;
+}
+
+div.arrows-table table td, div.arrows-table table th {
+	padding: 4px 5px;
+}
+
+div.arrows-table table td {
+	text-overflow: clip;
+        overflow: hidden;
+}
+
+div.arrows-table table th {
+	text-overflow: clip;
+        overflow: hidden;
+	font-weight: normal;
+}
+
+
+
+td.views-field-field-grave-1 {
+	overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+	td.views-field-field-weight-g,
+	td.views-field-field-functional-length,
+	td.views-field-field-functional-width,
+	td.views-field-field-tcsa-mm2,
+	td.views-field-field-tcsp-mm {
+		white-space: nowrap;
+	}
+}
+
+td.views-field-field-weight-g,
+td.views-field-field-functional-length,
+td.views-field-field-functional-width,
+td.views-field-field-tcsa-mm2,
+td.views-field-field-tcsp-mm {
+	text-align: right;
+}
+
+
+th.views-field-title, td.views-field-title,
+th.views-field-field-site, td.views-field-field-site {
+	width: 25%;
+}
+
+th.views-field-field-weight-g, td.views-field-field-weight-g,
+th.views-field-field-functional-length, td.views-field-field-functional-length,
+th.views-field-field-functional-width, td.views-field-field-functional-width,
+th.views-field-field-tcsa-mm2, td.views-field-field-tcsa-mm2,
+th.views-field-field-tcsp-mm, td.views-field-field-tcsp-mm
+{
+	width: 10%;
+}
+
+article.media--view-mode-open-seadragon .field--type-image {
+	width: 100%;
+	max-width: 1260px;	
+}
+
+.openseadragon-viewer {
+	width: inherit;
+}
+
+
+
+
+
+div.feed-icons {
+	display: none;
+}
+
+#block-islandora-muni-content div.field__label {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#block-islandora-muni-content div.field--type-entity-reference {
+	margin: 0;
+}
+
+#block-islandora-muni-content div.field {
+	margin-bottom: 0.3rem;
+}
+
+
+#block-islandora-muni-content div.group-footer {
+	padding-top: 2rem;
+}
+
+
+div.view-projectiles-openseadragon-media-evas tr {
+	border-width: 0.4rem;
+	border-color: white;
+}
+
 
